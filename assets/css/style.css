@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section{
+  display:block;
+}
+*[hidden]{
+  display:none;
+}
+
+body{
+  line-height:1;
+}
+
+menu, ol, ul{
+  list-style:none;
+}
+
+blockquote, q{
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after{
+  content:"";
+  content:none;
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+body{
+  background-color:lightblue;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  gap:50px 100px;
+}
+
+.graphics{
+  margin-top:50px;
+  border:3px solid #000;
+  -webkit-box-shadow:4px 4px 10px #000;
+          box-shadow:4px 4px 10px #000;
+  background-color:azure;
+}
+.graphics_square{
+  fill:#fbff00;
+  stroke-width:5;
+  stroke:#19d101;
+}
+.graphics_square:hover{
+  fill:#ffb109;
+  stroke-width:10;
+  stroke:#ff0606;
+  -webkit-transition:2s;
+  transition:2s;
+}
+.graphics_square:active{
+  width:50px;
+  height:50px;
+}
+.graphics_rectangle{
+  fill:#0077ff;
+  stroke-width:5;
+  stroke:#7600bb;
+}
+.graphics_rectangle:hover{
+  fill:#a102b6;
+  stroke-width:10;
+  stroke:#ff0606;
+  -webkit-transition:2s;
+  transition:2s;
+}
+.graphics_rectangle:active{
+  width:500px;
+  height:300px;
+}
+.graphics_circle{
+  fill:#1eff00;
+  stroke-width:5;
+  stroke:#d101ae;
+}
+.graphics_circle:hover{
+  fill:#a102b6;
+  stroke-width:20;
+  stroke:#ff0606;
+  -webkit-transition:2s;
+  transition:2s;
+}
+.graphics_circle:active{
+  fill:#0e02b6;
+}
+.graphics_ellipse{
+  fill:#9dff00;
+  stroke-width:5;
+  stroke:#d17701;
+}
+.graphics_ellipse:hover{
+  fill:#9c9c9c;
+  stroke-width:20;
+  stroke:#ff06ea;
+  -webkit-transition:2s;
+  transition:2s;
+}
+.graphics_ellipse:active{
+  fill:#02b698;
+}
