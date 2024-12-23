@@ -2,3 +2,11 @@
 .idea/
 .DS_Store
 node_modules/
+README.md
+package-lock.json
+package.json
+gulpfile.js
+CMD.md
+.prettierrc
+.eslintignore
+.csscomb.json
